@@ -1,5 +1,5 @@
 vovels = ['a', 'e', 'i', 'o', 'u']
-word = "miliard"
+word = input("Podaj słowo, w którym należy wyszukać samogłoski: ")
 found = []
 
 for letter in word:

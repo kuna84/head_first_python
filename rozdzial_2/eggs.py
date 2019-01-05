@@ -2,14 +2,13 @@ pharse = "Podaj jajko!"
 plist = list(pharse)
 print(pharse)
 print(plist)
-unwanted_letters = ['P', 'a', 'j', 'k', 'o', '!']
+unwanted_letters = ['P', 'a', 'j']
+    
+for letter in unwanted_letters:    
+    plist.remove(letter)
+    plist.pop()
 
-for letter in plist:
-    print(letter)
-    if letter in unwanted_letters:
-        plist
-        
-
-#new_pharse = ''.join(plist)
-#print(plist)
-#print(new_pharse)
+    
+new_pharse = ''.join(plist)
+print(plist)
+print(new_pharse)
